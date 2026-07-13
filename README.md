@@ -16,11 +16,6 @@ Modern tooltip UI demo featuring animated gradient text, smooth hover effects, a
 An exploration of micro-interactions and visual design, this project brings tooltips to life with animated gradients, fluid motion, and modern typography. Designed to feel smooth and engaging, it highlights how small UI details can create a more immersive user experience.
 
 ### 🎯 **Key Features**
-- 🔢 30 ready-to-use pagination patterns
-- ⚡ Fully interactive components
-- 🧩 Dark Light Mode
-- ♿ Accessibility-friendly (ARIA support)
-- 🎨 Easy to customize & theme
 - 📱 Responsive across all devices
 - 🧩 Works with modern UI workflows
 - 📋 Clean, copy-paste-ready code
