@@ -6,8 +6,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![View Online](https://img.shields.io/badge/Play-Now-brightgreen)](https://darshittank.github.io/Paginate)
 
-## 🎯 **Live Demo**
+## 🎯 Live Demo
 👉 **[View GSAP-ToolTip Now!](https://darshittank.github.io/GSAP-ToolTip/)** 👈
+
+## 🗺️ Roadmap.sh Solution
+👉 **[View My Tooltip UI Solution](https://roadmap.sh/projects/tooltip-ui/solutions?u=6a54aaccace5f057736e8164)** 👈
+
+## 📌 Project Page
+👉 **[Tooltip UI Project](https://roadmap.sh/projects/tooltip-ui)** 👈
 
 ## 📖 **About GSAP-ToolTip**
 
