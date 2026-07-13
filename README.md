@@ -22,8 +22,7 @@ An exploration of micro-interactions and visual design, this project brings tool
 
 ## 📸 Preview
 
-![Preview8](assets/screenshot_8.png)
-![Preview9](assets/screenshot_9.png)
+![screenshot-tooltip](assets/screenshot-tooltip.png)
 
 📦 Use Cases
 - Basic websites & blogs
