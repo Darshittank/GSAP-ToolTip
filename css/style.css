@@ -1,0 +1,30 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Poppins",sans-serif;}
+body{min-height:100vh;display:flex;justify-content:center;align-items:center;background: radial-gradient(circle at top left,#ffffff,#f5f7fb 45%,#edf2ff 100%);overflow:hidden;}
+/* Floating background */
+body::before, body::after{content:"";position:absolute;border-radius:50%;filter:blur(70px);opacity:.6;}
+body::before{width:280px;height:280px;background:#dbeafe;top:-80px;left:-80px;}
+body::after{width:320px;height:320px;background:#ede9fe;right:-100px;bottom:-100px;}
+#bgCanvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;}
+nav{position:relative;z-index:2;}
+.menu{display:flex;gap:18px;list-style:none;padding:16px 20px;background:rgba(255,255,255,.45);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.8);border-radius:22px;box-shadow: 0 10px 35px rgba(0,0,0,.08), inset 0 1px 0 rgba(255,255,255,.8);}
+.menu li{position:relative;}
+.menu a{display:flex;align-items:center;justify-content:center;text-decoration:none;color:#1f2937;font-weight:600;font-size:16px;gap:12px;padding:14px 24px;border-radius:14px;transition:.35s ease;}
+.menu a:hover{background:rgba(255,255,255,.7);transform:translateY(-2px);color:#2563eb;}
+/* Tooltip */
+.tooltip{position:absolute;left:50%;bottom:calc(100% + 18px);transform:translateX(-50%) translateY(10px);white-space:nowrap;background:rgba(255,255,255,1);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.85);color:#111827;font-size:14px;font-weight:600;padding:10px 16px;border-radius:14px;box-shadow: 0 15px 35px rgba(0,0,0,.08);opacity:0;visibility:hidden;pointer-events:none;transition:.3s ease;}
+.tooltip::after{content:"";position:absolute;left:50%;top:77%;transform:translateX(-50%) rotate(45deg);width:16px;height:16px;background:#fff;border-right:1px solid rgba(255,255,255,.85);border-bottom:1px solid rgba(255,255,255,.85);z-index:9;box-shadow:none;}
+.menu li:hover .tooltip{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0);}
+.gradient-animated{font-family:'Poppins',sans-serif;font-size:3.75em;/* 60px */
+font-weight:700;line-height:1.2;background:linear-gradient(270deg, #ff7a18, #ffb347, #00c6ff, #0072ff, #ff7a18);background-size:400% 400%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:gradientMove 8s ease infinite;display:inline-block;}
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+.gradient-animated{text-align:center;width:100%;animation:gradientMove 6s linear infinite;}
+.gradient-animated:hover{animation-duration:3s;}
+/* Responsive */ @media(max-width:880px){
+body{padding:25px;}
+.menu{width:100%;flex-direction:column;gap:12px;}
+.menu a{width:220px;}
+}
