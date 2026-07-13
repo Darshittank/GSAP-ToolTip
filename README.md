@@ -11,9 +11,9 @@
 
 ## 📖 **About GSAP-ToolTip**
 
-Well-designed pagination improves usability by making content easy to navigate without overload. This collection includes 30 production-ready pagination patterns for basic websites, large datasets, dashboards, and creative interfaces.
+Modern tooltip UI demo featuring animated gradient text, smooth hover effects, and responsive design using pure CSS.
 
-Each pattern is interactive, accessible, themeable, and copy-paste ready—helping you build faster while maintaining modern UI standards.
+An exploration of micro-interactions and visual design, this project brings tooltips to life with animated gradients, fluid motion, and modern typography. Designed to feel smooth and engaging, it highlights how small UI details can create a more immersive user experience.
 
 ### 🎯 **Key Features**
 - 🔢 30 ready-to-use pagination patterns
@@ -27,24 +27,20 @@ Each pattern is interactive, accessible, themeable, and copy-paste ready—helpi
 
 ## 📸 Preview
 
-![Preview6](assets/screenshot_6.png)
-![Preview7](assets/screenshot_7.png)
+![Preview8](assets/screenshot_8.png)
+![Preview9](assets/screenshot_9.png)
 
 📦 Use Cases
 - Basic websites & blogs
-- Large data tables
 - Admin dashboards
-- SaaS applications
 - Creative UI designs
 
 🚀 Getting Started
-- Browse the collection
-- Copy your preferred pagination pattern
 - Paste into your project
 - Customize styles as needed
 
 🎯 Goal
-- To provide developers and designers with scalable, modern, and efficient pagination solutions that save time and improve user experience.
+- To provide developers and designers with scalable, modern, and efficient Tooltip solutions that save time and improve user experience.
 
 🤝 Contributing
 - Contributions are welcome! Feel free to submit new patterns, improvements, or bug fixes.
