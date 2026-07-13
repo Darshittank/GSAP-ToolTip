@@ -56,11 +56,13 @@ Made with ❤️ and lots of GSAP-ToolTip!
 ### Local Development
 
 ```bash
-# Clone the repository
-git clone https://github.com/Darshittank/GSAP-ToolTip.git
+# Tooltip UI
 
-# Navigate to project directory
-cd GSAP-ToolTip
+## Live Demo
+https://darshittank.github.io/GSAP-ToolTip/
 
-# Open index.html in your browser
-open index.html
+## Repository
+https://github.com/Darshittank/GSAP-ToolTip
+
+## Roadmap.sh Project
+https://roadmap.sh/projects/tooltip-ui
